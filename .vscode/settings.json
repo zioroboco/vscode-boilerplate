@@ -3,5 +3,6 @@
     ".vscode-test": true,
     "out": true
   },
-  "typescript.tsc.autoDetect": "off"
+  "typescript.tsc.autoDetect": "off",
+  "github-actions.workflows.pinned.workflows": [".github/workflows/build.yaml"]
 }

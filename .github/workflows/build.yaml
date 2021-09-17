@@ -11,5 +11,11 @@ jobs:
         with:
           node-version: 14.x
           cache: yarn
-      - run: yarn install --frozen-lockfile
-      - run: yarn test
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Test (headless)
+        uses: GabrielBB/xvfb-action@v1
+        with:
+          run: yarn test

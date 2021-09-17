@@ -3,6 +3,8 @@
   "displayName": "boilerplate",
   "description": "",
   "version": "0.0.1",
+  "author": "Louis Quinnell <_@ziorobo.co>",
+  "license": "UNLICENSED",
   "engines": {
     "vscode": "^1.60.0"
   },
